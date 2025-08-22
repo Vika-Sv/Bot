@@ -19,7 +19,7 @@ def lookup_term(term: str) -> str | None:
         return None
 
 
-@router.message(Command = ['dictionary'])
+@router.message(Command('dictionary'))
 async def dictionary(message: Message):
     raw = message.text.replace("/dictionary", "").strip()
     if not raw:

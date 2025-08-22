@@ -1,4 +1,5 @@
 import json
+from aiogram.filters import Command
 from pathlib import Path
 import base64
 from aiogram import Router, F

@@ -1,4 +1,5 @@
 from aiogram import Router
+from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram.filters import Command
 
@@ -11,7 +12,7 @@ TIP = (
 )
 
 
-@router.message(Command = ["calc"])
+@router.message(Command("calc"))
 async def calc_stitches(message: Message):
     raw = message.text.replace("/calc", "").strip().lower()
     if not raw:
