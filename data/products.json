@@ -1,0 +1,7 @@
+{
+  "yarns": [
+    {"name": "Merino Extra Fine", "fiber": "100% merino", "meterage": "105 м / 50 г", "season": "зима"},
+    {"name": "Cotton Soft", "fiber": "100% cotton", "meterage": "160 м / 50 г", "season": "літо"},
+    {"name": "Wool Blend", "fiber": "70% wool, 30% acrylic", "meterage": "90 м / 50 г", "season": "осінь/зима"}
+  ]
+}
